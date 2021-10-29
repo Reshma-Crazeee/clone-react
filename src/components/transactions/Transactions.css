@@ -1,0 +1,33 @@
+.transactions .transactions-list {
+	list-style: none;
+	padding: 0;
+	width: 100%;
+	max-width: 720px;
+}
+
+.transactions .transactions-list .transactions-list-item {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+	border-radius: 4px;
+	margin: 16px 0;
+}
+
+.transactions-desc {
+	padding: 8px 16px;
+}
+
+.transactions-amount {
+	border-radius: 0 4px 4px 0;
+	padding: 16px;
+	width: 50px;
+	text-align: center;
+}
+
+.transactions-debit {
+	background-color: #9b9b6e;
+	color: white;
+}
+
+.transactions-credit {
+	background-color: #ac7c6d;
+	color: white;
+}
